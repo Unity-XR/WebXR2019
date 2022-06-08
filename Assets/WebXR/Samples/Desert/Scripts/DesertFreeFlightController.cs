@@ -77,7 +77,7 @@ public class DesertFreeFlightController : MonoBehaviour {
         }
 
         
-        transform.localRotation *= Quaternion.Euler(Input.acceleration.x, Input.acceleration.y, Input.acceleration.z);
+        //transform.localRotation *= Quaternion.Euler(Input.acceleration.x, Input.acceleration.y, Input.acceleration.z);
     }
 
     /*void DisableEverything()
