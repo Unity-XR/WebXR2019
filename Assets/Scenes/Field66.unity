@@ -730,6 +730,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 532470773, guid: 54a613ba6e982e84db04156af08d6a89, type: 3}
+      propertyPath: mouseSensitivity
+      value: -2
+      objectReference: {fileID: 0}
     - target: {fileID: 1241030032, guid: 54a613ba6e982e84db04156af08d6a89, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1806,6 +1810,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1159229501}
     m_Modifications:
+    - target: {fileID: 5351180685790884616, guid: 33df1423cdbd9944d9e86fd524b7b954,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.07
+      objectReference: {fileID: 0}
     - target: {fileID: 8851535840392732410, guid: 33df1423cdbd9944d9e86fd524b7b954,
         type: 3}
       propertyPath: m_Name
@@ -2069,6 +2078,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 269.999
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689423054732435994, guid: 9bdb55e2cdc622b43b1d3b566741d4df,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.07
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bdb55e2cdc622b43b1d3b566741d4df, type: 3}
