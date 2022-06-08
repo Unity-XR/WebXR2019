@@ -5,7 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class SceneManagement : MonoBehaviour
 {
+    public Material[] sceneSkyBox;
+    public MeshRenderer meshRenderer;
     public void onToggleButtons(int sceneId){
-        SceneManager.LoadScene(sceneId);
+        meshRenderer.material = sceneSkyBox[sceneId];
     }
 }
