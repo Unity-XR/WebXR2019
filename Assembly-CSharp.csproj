@@ -48,9 +48,11 @@
      <Compile Include="Assets\WebXR\Scripts\WebXRManager.cs" />
      <Compile Include="Assets\WebXR\Scripts\WebXRMatrixUtil.cs" />
      <Compile Include="Assets\WebXR\Scripts\WebXRUI.cs" />
+     <Compile Include="Assets\_sun\GoogleSheet.cs" />
      <Compile Include="Assets\_sun\InputControl.cs" />
      <Compile Include="Assets\_sun\InputManagement.cs" />
      <Compile Include="Assets\_sun\SceneManagement.cs" />
+     <None Include="Assets\Field66\Outlined Diffuse.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.31f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

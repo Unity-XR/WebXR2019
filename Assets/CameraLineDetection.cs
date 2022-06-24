@@ -10,13 +10,15 @@ public class CameraLineDetection : MonoBehaviour
     public Image rayTimeImage;
     void Update()
     {
-        Ray ray = new Ray(transform.position,transform.forward);
-        
+        Ray ray = new Ray(transform.position, transform.forward);
+
         RaycastHit hitInfo;
-        if(Physics.Raycast(ray,out hitInfo))
+        if (Physics.Raycast(ray, out hitInfo))
         {
             rayTime -= Time.deltaTime;
-            if(rayTime <= 0){
+            if (rayTime <= 0 && hitInfo.collider.GetComponent<InputControl>() != null)
+            {
+                //Debug.Log(hitInfo.collider);
                 hitInfo.collider.GetComponent<InputControl>().onMouseDown.Invoke();
             }
         }
