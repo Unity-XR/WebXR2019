@@ -40,7 +40,6 @@
      <Compile Include="Assets\TestVideo.cs" />
      <Compile Include="Assets\WebXR\Samples\Desert\Scripts\DesertControllerInteraction.cs" />
      <Compile Include="Assets\WebXR\Samples\Desert\Scripts\DesertFreeFlightController.cs" />
-<<<<<<< HEAD
      <Compile Include="Assets\_sun\Script\Firbese\FirebaseStorage.cs" />
      <Compile Include="Assets\_sun\Script\GoogleSheet.cs" />
      <Compile Include="Assets\_sun\Script\InputControl.cs" />
@@ -82,20 +81,6 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
-=======
-     <Compile Include="Assets\WebXR\Scripts\WebXRCamera.cs" />
-     <Compile Include="Assets\WebXR\Scripts\WebXRController.cs" />
-     <Compile Include="Assets\WebXR\Scripts\WebXRControllerData.cs" />
-     <Compile Include="Assets\WebXR\Scripts\WebXRControllerInputMap.cs" />
-     <Compile Include="Assets\WebXR\Scripts\WebXRData.cs" />
-     <Compile Include="Assets\WebXR\Scripts\WebXRDisplayCapabilities.cs" />
-     <Compile Include="Assets\WebXR\Scripts\WebXRManager.cs" />
-     <Compile Include="Assets\WebXR\Scripts\WebXRMatrixUtil.cs" />
-     <Compile Include="Assets\WebXR\Scripts\WebXRUI.cs" />
-     <Compile Include="Assets\_sun\InputControl.cs" />
-     <Compile Include="Assets\_sun\InputManagement.cs" />
-     <Compile Include="Assets\_sun\SceneManagement.cs" />
->>>>>>> parent of 43866cb (Updata)
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.31f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
