@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{939ae92e-89a8-ca0c-d23d-9fc450df72e0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebXR", "WebXR.csproj", "{00fe13d2-6aba-d428-fc60-19da03c27bcc}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Management.Samples", "Unity.XR.Management.Samples.csproj", "{d068a757-42db-be78-ceb6-65d00df8b2db}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Management.Samples.Editor", "Unity.XR.Management.Samples.Editor.csproj", "{2190e5ef-4615-82ce-10c6-c19991a83978}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{21b25d82-3bc0-947a-d6b8-1cf0a9b508fb}"
 EndProject
 Global
@@ -12,6 +18,12 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{939ae92e-89a8-ca0c-d23d-9fc450df72e0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{939ae92e-89a8-ca0c-d23d-9fc450df72e0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00fe13d2-6aba-d428-fc60-19da03c27bcc}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00fe13d2-6aba-d428-fc60-19da03c27bcc}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{d068a757-42db-be78-ceb6-65d00df8b2db}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d068a757-42db-be78-ceb6-65d00df8b2db}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2190e5ef-4615-82ce-10c6-c19991a83978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2190e5ef-4615-82ce-10c6-c19991a83978}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21b25d82-3bc0-947a-d6b8-1cf0a9b508fb}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{21b25d82-3bc0-947a-d6b8-1cf0a9b508fb}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection

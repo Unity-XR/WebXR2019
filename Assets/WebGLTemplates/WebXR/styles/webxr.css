@@ -122,7 +122,7 @@ a:link, a:visited {
   background-size: 80%;
   border: none;
   cursor: pointer;
-} 
+}
 
 [data-unity-loaded='true'] #enterxr[data-enabled='true'] {
   display: block;

@@ -8,7 +8,7 @@ public class DesertFreeFlightController : MonoBehaviour {
     [Tooltip("Enable/disable translation control. For use in Unity editor only.")]
     public bool translationEnabled = true;
 
-    //private WebXRDisplayCapabilities capabilities;
+    private WebXRDisplayCapabilities capabilities;
 
     [Tooltip("Mouse sensitivity")]
     public float mouseSensitivity = 1f;
@@ -29,12 +29,12 @@ public class DesertFreeFlightController : MonoBehaviour {
 
     void Start()
     {
-        //WebXRManager.Instance.OnXRChange += onXRChange;
-        //WebXRManager.Instance.OnXRCapabilitiesUpdate += onXRCapabilitiesUpdate;
+        WebXRManager.Instance.OnXRChange += onXRChange;
+        WebXRManager.Instance.OnXRCapabilitiesUpdate += onXRCapabilitiesUpdate;
         originalRotation = transform.localRotation;
     }
 
-    /*private void onXRChange(WebXRState state)
+    private void onXRChange(WebXRState state)
     {
         if (state == WebXRState.ENABLED)
         {
@@ -44,13 +44,13 @@ public class DesertFreeFlightController : MonoBehaviour {
         {
             EnableAccordingToPlatform();
         }
-    }*/
+    }
 
-    /*private void onXRCapabilitiesUpdate(WebXRDisplayCapabilities vrCapabilities)
+    private void onXRCapabilitiesUpdate(WebXRDisplayCapabilities vrCapabilities)
     {
         capabilities = vrCapabilities;
         EnableAccordingToPlatform();
-    }*/
+    }
 
     void Update() {
         if (translationEnabled)
@@ -75,12 +75,9 @@ public class DesertFreeFlightController : MonoBehaviour {
 
             transform.localRotation = originalRotation * xQuaternion * yQuaternion;
         }
-
-        
-        //transform.localRotation *= Quaternion.Euler(Input.acceleration.x, Input.acceleration.y, Input.acceleration.z);
     }
 
-    /*void DisableEverything()
+    void DisableEverything()
     {
         translationEnabled = false;
         rotationEnabled = false;
@@ -92,7 +89,7 @@ public class DesertFreeFlightController : MonoBehaviour {
     void EnableAccordingToPlatform()
     {
         rotationEnabled = translationEnabled = !capabilities.supportsImmersiveVR;
-    }*/
+    }
 
     public static float ClampAngle (float angle, float min, float max)
     {

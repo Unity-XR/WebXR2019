@@ -5,10 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: Assets/_sun/Scenes/firebase.unity
+    guid: 19b11175df972ee42b823bd9fa7fe478
   - enabled: 1
-    path: Assets/Scenes/Field66.unity
+    path: Assets/_sun/Scenes/Field66.unity
     guid: d047e7a3e43ab5046b436dbe7732da65
   m_configObjects:
-    WebXR.Settings: {fileID: 11400000, guid: fc06af2b1aac8ea4d8924e3ced27781c, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 0c181c419c00fd44690e01f29ba0f1dd,
       type: 2}
