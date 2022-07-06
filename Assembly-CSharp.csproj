@@ -630,6 +630,9 @@
     <Reference Include="Unity.Subsystem.Registration">
         <HintPath>C:\Users\bingf\Documents\UnityProject\WebXR2019\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+        <HintPath>C:\Users\bingf\Documents\UnityProject\WebXR2019\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Toolchain.Macos-x86_64-Linux-x86_64">
         <HintPath>C:\Users\bingf\Documents\UnityProject\WebXR2019\Library\ScriptAssemblies\Unity.Toolchain.Macos-x86_64-Linux-x86_64.dll</HintPath>
     </Reference>
@@ -672,11 +675,12 @@
     <Reference Include="UnityEditor.UI">
         <HintPath>C:\Users\bingf\Documents\UnityProject\WebXR2019\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-        <HintPath>C:\Users\bingf\Documents\UnityProject\WebXR2019\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="WebXR.csproj">
+      <Project>{00fe13d2-6aba-d428-fc60-19da03c27bcc}</Project>
+      <Name>WebXR</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Samples.csproj">
       <Project>{d068a757-42db-be78-ceb6-65d00df8b2db}</Project>
       <Name>Unity.XR.Management.Samples</Name>
@@ -684,10 +688,6 @@
     <ProjectReference Include="Unity.XR.Management.Samples.Editor.csproj">
       <Project>{2190e5ef-4615-82ce-10c6-c19991a83978}</Project>
       <Name>Unity.XR.Management.Samples.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="WebXR.csproj">
-      <Project>{00fe13d2-6aba-d428-fc60-19da03c27bcc}</Project>
-      <Name>WebXR</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

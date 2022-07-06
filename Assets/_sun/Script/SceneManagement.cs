@@ -5,9 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class SceneManagement : MonoBehaviour
 {
-    public Material[] sceneSkyBox;
+    public Material sceneSkyBox;
+    public Texture[] textures;
     public MeshRenderer meshRenderer;
-    public void onToggleButtons(int sceneId){
-        meshRenderer.material = sceneSkyBox[sceneId];
+
+    private void Start()
+    {
+        sceneSkyBox.SetTexture("_MainTex", textures[0]);
+    }
+    public void onToggleButtons(int sceneId)
+    {
+        sceneSkyBox.SetTexture("_MainTex", textures[sceneId]);
+
     }
 }
